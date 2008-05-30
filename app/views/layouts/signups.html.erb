@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>Signups: <%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'scaffold' %>
+</head>
+<body>
+
+<div id="nest">
+	<p class="center"><%= image_tag("hbalogo.png", :alt => "Honor by August") %></p>
+	<% if flash[:notice] %>
+		<p style="border: 1px solid green; background-color: #fff; padding: 5px;"><%= flash[:notice] %></p>
+	<% end %>
+<%= yield  %>
+</div>
+</body>
+</html>

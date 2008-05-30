@@ -1,0 +1,18 @@
+<h1>Listing signups</h1>
+
+<table>
+  <tr>
+  </tr>
+
+<% for signup in @signups %>
+  <tr>
+    <td><%= link_to 'Show', signup %></td>
+    <td><%= link_to 'Edit', edit_signup_path(signup) %></td>
+    <td><%= link_to 'Destroy', signup, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New signup', new_signup_path %>

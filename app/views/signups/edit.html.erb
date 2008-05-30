@@ -1,0 +1,12 @@
+<h1>Editing signup</h1>
+
+<%= error_messages_for :signup %>
+
+<% form_for(@signup) do |f| %>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @signup %> |
+<%= link_to 'Back', signups_path %>

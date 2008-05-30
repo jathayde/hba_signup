@@ -1,0 +1,86 @@
+table, tr, td{ 
+background-color:transparent; 
+} 
+body{ 
+	background-color:rgb(51,0,0); 
+	background-image:url(http://localhost:3000/images/bgtile.jpg); 
+	background-position:top left; 
+	background-repeat:repeat; 
+	background-attachment:fixed; 
+} 
+
+/* The code that puts the stuff up at the top */
+
+.masthead {position: absolute;top: 215px;margin-left: -480px; left: 50%;width: 940px;height: 290px; border: 10px solid white;}
+body table {margin-top: 350px;} /* Set to a little more than the height of our banner */
+body td table, body div table {margin-top: 0;}
+
+/* end */
+
+
+body, div, p, strong, td, .text, .blacktext10, .blacktext12, a.searchlinkSmall, a.searchlinkSmall:link, a.searchlinkSmall:visited{ 
+	color:rgb(51,51,51); 
+	font-weight:normal; 
+	font-style:normal; 
+	text-decoration:none; 
+	text-transform:none; 
+	font-family:verdana,sans-serif; 
+} 
+
+.orangetext15, strong, .lightbluetext8, .whitetext12, .btext, .redtext, .redbtext{ 
+	color:rgb(95,144,153); 
+	font-weight:bold; 
+	font-style:normal; 
+	text-decoration:none; 
+	text-transform:none; 
+	font-family:verdana,sans-serif; f
+} 
+
+.nametext {
+	color: rgb(102,0,0);
+	font-weight: normal;
+	font-size: 36px;
+	font-style: normal;
+	text-decoration: none;
+	text-transform:none;
+	font-family: Georgia, serif;
+}
+
+a, a font, a:link, a:visited, a.navbar, a.navbar:link, a.navbar:visited, a.man, a.man:link, a.man:visited, a.man font, a.redlink, a.redlink:visited{ 
+	color:rgb(102,0,0); 
+	font-weight:normal; 
+	font-style:normal; 
+	text-decoration:underline ; 
+	text-transform:none; 
+} 
+
+a:hover, a:hover font, a:active, a.navbar:hover, a.navbar:active, a.man:hover, a.man:active, a.man:hover font, a.searchlinkSmall:hover, a.searchlinkSmall:active, a.redlink:hover, a.redlink:hover{ 
+	font-weight:bold; 
+	font-style:normal; 
+	text-decoration:underline ; 
+	text-transform:none; 
+} 
+
+table table table, table.friendsComments {background: rgb(175,185,186); border: 10px solid white;padding: 10px;}
+table table table tr td {border: none;}
+
+table table table table {border: none;}
+
+table.friendsComments table {border: none;width: 800px;}
+table.friendsComments table tr td {border-bottom: 1px solid white;}
+table.friendsComments table table tr td {width: 150px;}
+table.friendsComments table table tr td.columnsWidening {width: 650px; padding: 10px;}
+
+table.contactTable {padding: 10px 1px;}
+table.latestBlogEntry {width: 540px;}
+
+xdiv#profile_bandschedule table {width: 540px;}
+xdiv#profile_bandschedule table table {padding: 0;width: 0%;}
+
+xobject#mp3player {border: 10px solid white; padding: 35px; background: rgb(175,185,186); }
+
+/* InterSTITal baby! */
+xobject#mp3player {margin-bottom: 95px;}
+x.interstital {position: absolute;top: 1005px; margin-left: -82px; left: 50%; width: 520px;height: 75px; border: 10px solid white;}
+xdiv#profile_bandschedule .whitetext12 {visibility: hidden;margin-right: 300px;}
+/* end */
